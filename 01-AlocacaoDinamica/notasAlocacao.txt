@@ -1,0 +1,45 @@
+Alocação Dinâmica de memória:
+------------------------------
+# Transformar um ponteiro num array;
+# Em C temos as funções:
+	malloc
+	calloc
+	realloc
+	free
+	operador: sizeof
+# Operador sizeof:
+	=> O operador sizeof retorna em bytes o tamanho de um determinado tipo de dado;
+	=> int variavel = sizeof(tipo);
+	=> Exemplo:
+	=> int tamanho = sizeof(int);
+	=> Retorna o tamanho em bytes do tipo inteiro int.
+# MALLOC
+	=> Serve para alocar memória durante a execução do programa;
+	=> Faz um pedido de uma quantidade de memória ao computador e retorna um ponteiro com o endereço do início do espaço de memória alocado;
+	=> void * malloc(unsigned int num);
+	=> A função retorna um número inteiro sem sinal e recebe um ponteiro vazio (genérico);
+	=> O num é a quantidade de bytes que precisa ser alocada;
+	=> O malloc utiliza um ponteiro genérico pois a função malloc() não sabe o que o programador irá fazer com aquele espaço da memória a função utiliza um ponteiro genérico e após o programador pode converter isso para o tipo que quiser;
+	=> A função malloc recebe por parametro a quantidade de bytes a ser alocada;
+	=> A função malloc retorna:
+		=> NULL = caso de erro;
+		=> ponteiro para a primeira posição do array caso a alocação dê certo;
+
+# A função free()
+	=> free(variavel);
+	=> Libera a memória que foi alocada para determinada variável quando ela não for mais utilizada ou quando o programa acabar;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+1. Escreva um programa que realiza a soma de dois valores inteiros utilizando ponteiros.
+
+2. Escreva um programa que decide qual o maior entre dois números inteiros utilizando ponteiros.

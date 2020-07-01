@@ -1,0 +1,21 @@
+ESTRUTURAS DE DADOS
+-------------------
+# Listas:
+=> Uma estrutura na qual é possível aumentar e diminuir o tamanho como quiser;
+=> Evita usar o realloc, que é custoso computacionalmente
+=> Uma lista tem sempre o tamanho exato da quantidade de elementos necessários, não sendo nem maior e nem menor, evitando falta ou desperdício de memória
+=> Existem operações que precisamos implementar:
+	=> Inserir
+	=> Deletar
+	=> Encontrar elemento
+	=> Acessar próximo elemento e anterior
+	=> Imprimir a lista
+	=> Criar uma lista vazia
+# Listas Encadeadas Simples:
+=> Parece com um vetor;
+=> Os endereços de memória não são consecutivos;
+=> Para aumentar ou diminuir o tamanho da lista é necessário usar *Alocação Dinâmica*;
+=> Necessário o uso de ponteiros e structs;
+=> Um elemento da lista sempre guarda o conteúdo e a posição do próximo elemento, sendo que o último aponta para NULL;
+=> Para inserir no meio da lista, deve-se usar alocação e apontar para o elemento anterior e o próximo elemento;
+=> Uma desvantagem é que para acessar um elemento específico  é necessário percorrer a lista inteira;
